@@ -1,8 +1,16 @@
 import { Flex, Icon, Input } from "@chakra-ui/react";
-import React from "react";
+import React, { useRef } from "react";
 import { RiSearchLine } from "react-icons/ri";
 
+// Controlled Components 
+
 export function Search() {
+  // const [search, setSearch] = useState('');
+  //const searchInputRef = useRef<HTMLInputElement>(null)
+
+  //console.log(searchInputRef.current.value)
+  // Debounce => conceito de pesquisa estática, ocorre após finalização da digitação
+  
   return (
     <Flex
       as="label"
