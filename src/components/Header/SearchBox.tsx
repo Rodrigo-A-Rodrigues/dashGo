@@ -6,7 +6,7 @@ import { RiSearchLine } from "react-icons/ri";
 
 export function Search() {
   // const [search, setSearch] = useState('');
-  //const searchInputRef = useRef<HTMLInputElement>(null)
+  const searchInputRef = useRef<HTMLInputElement>(null)
 
   //console.log(searchInputRef.current.value)
   // Debounce => conceito de pesquisa estática, ocorre após finalização da digitação
